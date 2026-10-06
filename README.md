@@ -1,1 +1,0 @@
-# Advanced-Eks-Gitops
