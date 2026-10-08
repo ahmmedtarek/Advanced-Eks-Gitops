@@ -1,0 +1,10 @@
+apiVersion: v1
+data:
+  postgresql.conf: |-
+    POSTGRES_HOST=postgres-service
+    POSTGRES_PORT=5432
+kind: ConfigMap
+metadata:
+  name: postgres-configmap
+  namespace: app
+
