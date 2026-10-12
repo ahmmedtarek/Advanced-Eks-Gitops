@@ -17,7 +17,7 @@ spec:
     spec:
       automountServiceAccountToken: false
       containers:
-      - image: 305018987435.dkr.ecr.eu-north-1.amazonaws.com/backend:783668c11a22ea7fa01df7045844c0696a52475a
+      - image: 305018987435.dkr.ecr.eu-north-1.amazonaws.com/backend:5cc6101ef345bb3b2b9368cc1df3307904a560e6
         name: backend
         ports:
         - containerPort: 8000
